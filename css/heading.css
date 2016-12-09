@@ -1,0 +1,13 @@
+#heading, h1{
+ text-align: center;
+ letter-spacing: 4px;
+ font-size: 34px;
+ font-family: times, Times New Roman, times-roman, georgia, serif;
+ }
+
+ #heading p{
+ text-align: center;
+ letter-spacing: 4px;
+ font-size: 14px;
+ font-family: times, Times New Roman, times-roman, georgia, serif;
+ }

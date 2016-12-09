@@ -1,0 +1,27 @@
+
+#console {
+  color: #999;
+  line-height: 18px;
+  margin-top: 20px;
+  max-height: 150px;
+  overflow: auto;
+}
+
+#mySwipe div b {
+
+}
+
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width: 20px;
+  position: relative;
+}

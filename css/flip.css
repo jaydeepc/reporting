@@ -1,0 +1,98 @@
+#f1_container {
+position: relative;
+margin: 10px auto;
+width: 450px;
+height: 281px;
+z-index: 1;
+}
+#f1_container {
+perspective: 1000;
+}
+#f1_card {
+width: 100%;
+height: 100%;
+transform-style: preserve-3d;
+transition: all 1.0s linear;
+}
+#f1_container:hover #f1_card {
+transform: rotateY(180deg);
+box-shadow: -5px 5px 5px #aaa;
+}
+.face {
+position: absolute;
+width: 100%;
+height: 100%;
+backface-visibility: hidden;
+}
+.face.back {
+display: block;
+transform: rotateY(180deg);
+box-sizing: border-box;
+padding: 10px;
+color: white;
+text-align: center;
+background-color: #CB2012;
+opacity: .9;
+border: 4px solid white;
+}
+
+.face.front {
+
+}
+
+#inside h2{
+	font-family: Gill Sans, Verdana;
+	font-size: 11px;
+	line-height: 14px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: bold;
+	color: white;
+ }
+
+ #inside p{
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+	color: white;
+	margin: 0;
+	padding: 0px 0px 6px 0px;
+	font-size: 20px;
+	line-height: 44px;
+	letter-spacing: 4px;
+	font-weight: bold;
+	word-wrap: break-word
+ }
+
+ #heading, h2{
+     text-align: center;
+     letter-spacing: 4px;
+     font-size: 24px;
+     font-family: times, Times New Roman, times-roman, georgia, serif;
+ }
+
+  #heading p{
+      text-align: center;
+      letter-spacing: 4px;
+      font-size: 14px;
+      font-family: times, Times New Roman, times-roman, georgia, serif;
+  }
+
+ #container, #container_error, #container_pass, #container_skip {
+     text-align: center;
+     width: 100%;
+     opacity: .7;
+ }
+
+
+ body {
+
+ }
+
+ .trace{
+    text-align: left;
+    display: inline;
+    font-weight: bold;
+    word-wrap: break-word;
+    font-size: 14px;
+    color: white;
+    overflow-y: auto;
+ }
